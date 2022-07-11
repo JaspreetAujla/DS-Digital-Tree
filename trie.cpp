@@ -65,12 +65,12 @@ int main()
 		insert(root, keys[i]);
 
 	search(root, "answer")? cout << "Yes\n" :
-						cout << "No\n";
+	cout << "No\n";
 	search(root, "these")? cout << "Yes\n" :
-						cout << "No\n";
+	cout << "No\n";
 	search(root, "any")? cout << "Yes\n" :
-						cout << "No\n";
+	cout << "No\n";
 	search(root, "thaw")? cout << "Yes\n" :
-						cout << "No\n";
+	cout << "No\n";
 	return 0;
 }
